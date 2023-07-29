@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Tektur';
+    font-size: 16px;
+    line-height: 1.6;
+    min-width: 320px;
+    color: #FFFFFF;
+    background: #000000;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #F0F0F0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.header__logo img {
+    max-width: 60px;
+}
+
+.header__logo-text {
+    margin-left: 10px;
+}
+
+.header__logo a {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.header__navigation {
+    display: flex;
+}
+
+.header__navigation ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    column-gap: 32px;
+}
+
+.header__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.header__social-icon {
+    display: flex;
+    justify-content: end;
+    column-gap: 15px;
+    width: 100%;
+}
+
+.header__social-icon img {
+    max-width: 30px;
+}
+
+.header__social-contact {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header__social-contact img {
+    max-width: 20px;
+    margin-right: 5px;
+}
+
+/* КНОПКА ЗАКАЗАТЬ */
+
+/* .button__orden {
+    font-family: 'Tektur';
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 20px;
+    cursor: pointer;
+}
+
+.button__order:hover {
+    background: #F0F0F0;
+} */
+
+.intro {
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: url("/img/mountain.jpg");
+    background-size: cover;
+}
+
+.intro::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    z-index: 1;
+}
+
+.video__media {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
