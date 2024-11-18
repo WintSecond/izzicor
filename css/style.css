@@ -76,7 +76,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 20px;
 }
 
 .header__social-icon {
