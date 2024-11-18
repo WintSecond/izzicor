@@ -27,6 +27,17 @@ a:hover {
     color: #F0F0F0;
 }
 
+.button {
+    margin-top: 10px;
+    color: #000000;
+    background: #FFFFFF;
+    padding: 9px 13px;
+    border-radius: 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
 .container {
     max-width: 1200px;
     width: 100%;
@@ -124,7 +135,7 @@ a:hover {
     z-index: 1;
 }
 
-.intro__media-play {
+.intro__media {
     width: 100%;
     height: auto;
     position: absolute;
@@ -144,6 +155,12 @@ a:hover {
     z-index: 3;
 }
 
+.intro__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .intro__title {
     font-size: 54px;
     text-align: center;
@@ -151,6 +168,14 @@ a:hover {
 
 .intro__text {
     text-align: center;
+}
+
+.intro__order-link {
+    margin-top: 10px;
+    color: #000000;
+    background: #FFFFFF;
+    padding: 9px 13px;
+    border-radius: 22px;
 }
 
 .services__title {
@@ -210,12 +235,4 @@ a:hover {
 .services__card-text {
     font-size: 14px;
     margin-top: 10px;
-}
-
-.services__card-order {
-    margin-top: 10px;
-    color: #000000;
-    background: #FFFFFF;
-    padding: 9px 13px;
-    border-radius: 22px;
 }
